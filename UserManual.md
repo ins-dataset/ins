@@ -73,7 +73,6 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
   <tr>
     <td class="tg-lboi">Livox Mid 360</td>
     <td class="tg-lboi">/livox/lidar/imu</td>
-    <td class="tg-lboi" rowspan="1"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
     <td class="tg-9wq8">400</td>
     <td class="tg-lboi">See datasheet</td>
   </tr>

@@ -22,11 +22,13 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
     <img src="images/ntu_compressed.gif" width="32%"/>
     <img src="images/ntu_compressed.gif" width="32%"/>
   </p>
-* Several examples on SOTA SLAM and learning methods.
-
+* Visualization of INS dataset.
+<p align="center">
+    <img src="images/figure2.png" alt="maps_and_elevation" width="80%"/>
+</p>
 # Notes:
 
-If you have some inquiry, please raise an [issue](https://ins-dataset.github.io/ins.github.io/issues) on github.
+If you have some inquiry, please raise an [issue](https://github.com/ins-dataset/ins.github.io/issues) on github.
 
 # Licence
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and is intended for non-commercial academic use.
