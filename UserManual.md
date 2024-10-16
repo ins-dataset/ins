@@ -33,37 +33,26 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
 </colgroup>
 <thead>
   <tr>
-    <th class="tg-uzvj" rowspan="2">Modality</th>
-    <th class="tg-uzvj" rowspan="2">Hardware</th>
-    <th class="tg-uzvj" colspan="2">ROS topics / Sensor suite</th>
-    <th class="tg-uzvj" rowspan="2">Message type</th>
-    <th class="tg-uzvj" rowspan="2">Rate<br>(Hz)</th>
-    <th class="tg-9wq8" rowspan="2"><span style="font-weight:bold">Notes</span></th>
-  </tr>
-  <tr>
-    <th class="tg-uzvj">ATV</th>
-    <th class="tg-uzvj">HHS</th>
+    <th class="tg-uzvj" rowspan="1">Modality</th>
+    <th class="tg-uzvj" rowspan="1">Hardware</th>
+    <th class="tg-uzvj" colspan="1">ROS topics / Sensor suite</th>
+    <th class="tg-uzvj" rowspan="1">Message type</th>
+    <th class="tg-uzvj" rowspan="1">Rate<br>(Hz)</th>
+    <th class="tg-9wq8" rowspan="1"><span style="font-weight:bold">Notes</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-uzvj" rowspan="3">Camera</td>
+    <td class="tg-uzvj" rowspan="2">Camera</td>
     <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d435i/" target="_blank" rel="noopener noreferrer">D435i</a></td>
     <td class="tg-lboi">/d435i/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw</td>
     <td class="tg-lboi">-</td>
     <td class="tg-lboi" rowspan="3"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Image</a></td>
     <td class="tg-9wq8">30</td>
-    <td class="tg-lboi">640<span style="font-weight:400;font-style:normal">×480 Greyscale</span><br><span style="font-weight:400;font-style:normal">640</span>×480 Greyscale</td>
-  </tr>
-  <tr>
-    <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d455/" target="_blank" rel="noopener noreferrer">D455t</a></td>
-    <td class="tg-lboi">-</td>
-    <td class="tg-lboi">/d455t/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455t/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455t/color/image_raw</span></td>
-    <td class="tg-9wq8">30</td>
     <td class="tg-lboi">640×480 Greyscale<br><span style="font-weight:400;font-style:normal">640×480 Greyscale</span><br><span style="font-weight:400;font-style:normal">640×480 RGB</span></td>
   </tr>
   <tr>
-    <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d455/" target="_blank" rel="noopener noreferrer">D455b</a></td>
+    <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d455/" target="_blank" rel="noopener noreferrer">D455</a></td>
     <td class="tg-lboi">/d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455b/color/image_raw</span></td>
     <td class="tg-lboi">/d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455b/color/image_raw</span></td>
     <td class="tg-9wq8">30</td>
@@ -71,14 +60,6 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
   </tr>
   <tr>
     <td class="tg-uzvj" rowspan="6">IMU</td>
-    <td class="tg-lboi">Ouster OS1</td>
-    <td class="tg-lboi">/os cloud node/imu</td>
-    <td class="tg-lboi">/os cloud node/imu</td>
-    <td class="tg-lboi" rowspan="6"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
-    <td class="tg-9wq8">100</td>
-    <td class="tg-lboi"><a href="https://data.ouster.io/downloads/datasheets/datasheet-rev7-v3p0-os1.pdf" target="_blank" rel="noopener noreferrer">IAM-20680HT</a></td>
-  </tr>
-  <tr>
     <td class="tg-lboi">D435i</td>
     <td class="tg-lboi">/d435i/imu</td>
     <td class="tg-lboi">-</td>

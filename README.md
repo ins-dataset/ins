@@ -13,7 +13,7 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   + High quality IMUs
 * Multi Robot Type
   <p align="center">
-    <img src="images/robot1.jpg`" width="32%"/>
+    <img src="images/robot1.jpg" width="32%"/>
     <img src="images/robot2.jpg" width="32%"/>
   </p>
 * High resolution large scale survey-grade prior maps
