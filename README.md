@@ -7,11 +7,10 @@
 The dataset is collected over large-scale campus areas in the Asia and Europe at different seasons, featuring:
 
 * A comprehensive multi-sensor suite:
-  + 3D spinning lidar
   + Non-repetItive lidar
-  + Stereo cameras
+  + RGB Camera
+  + Depth Camera
   + High quality IMUs
-  + UWB ranging sensors
 * High resolution large scale survey-grade prior maps
   <p align="center">
     <img src="images/ntu_rgb_annotated.gif" width="32%"/>
