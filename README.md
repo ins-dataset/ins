@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="images/maps.png" alt="maps_and_elevation" width="98%"/>
+    <img src="images/figure1.png" alt="maps_and_elevation" width="90%"/>
 </p>
 
 # [MNE-SLAM: Multi-agent Neural SLAM for Mobile Robots (Indoor Neural SLAM Dataset)](https://ins-dataset.github.io/ins.github.io/)
@@ -11,6 +11,11 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   + RGB Camera
   + Depth Camera
   + High quality IMUs
+* Multi Robot Type
+  <p align="center">
+    <img src="images/robot1" width="32%"/>
+    <img src="images/robot2" width="32%"/>
+  </p>
 * High resolution large scale survey-grade prior maps
   <p align="center">
     <img src="images/ntu_rgb_annotated.gif" width="32%"/>
