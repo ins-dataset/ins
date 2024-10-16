@@ -1,5 +1,5 @@
-title: MCD
-description: Multi-Campus Dataset
+title: INS
+description: Indoor Neural SLAM Dataset
 
 theme: null
 
@@ -30,4 +30,4 @@ exclude:
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
 
-repository: mcdviral/mcdviral.github.io
+repository: ins-dataset.github.io/ins.github.io
