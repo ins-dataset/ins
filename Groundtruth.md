@@ -106,4 +106,3 @@ print(pose_stamped)
 
 ```
 
-Check out the list of [demos](https://github.com/mcdviral/ceva/tree/master/scripts) for more examples of ceva's functions.

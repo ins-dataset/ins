@@ -59,7 +59,7 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
     <td class="tg-uzvj" rowspan="3">IMU</td>
     <td class="tg-lboi">D435i</td>
     <td class="tg-lboi">/d435i/imu</td>
-    <td class="tg-lboi" rowspan="2"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
+    <td class="tg-lboi" rowspan="3"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
     <td class="tg-9wq8">400</td>
     <td class="tg-a890"><a href="https://www.intelrealsense.com/how-to-getting-imu-data-from-d435i-and-t265/" target="_blank" rel="noopener noreferrer">Bosch BMI055</a></td>
   </tr>
@@ -67,22 +67,20 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
   <tr>
     <td class="tg-lboi">D455b</td>
     <td class="tg-lboi">/d455b/imu</td>
-    <td class="tg-lboi" rowspan="2"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
     <td class="tg-9wq8">400</td>
     <td class="tg-lboi"><a href="https://www.intelrealsense.com/wp-content/uploads/2020/06/Intel-RealSense-D400-Series-Datasheet-June-2020.pdf" target="_blank" rel="noopener noreferrer">See datasheet</a></td>
   </tr>
-      <tr>
+  <tr>
     <td class="tg-lboi">Livox Mid 360</td>
     <td class="tg-lboi">/livox/lidar/imu</td>
-    <td class="tg-lboi" rowspan="2"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
+    <td class="tg-lboi" rowspan="1"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
     <td class="tg-9wq8">400</td>
-    <td class="tg-lboi">See datasheet</a></td>
+    <td class="tg-lboi">See datasheet</td>
   </tr>
 
   <tr>
     <td class="tg-uzvj" rowspan="1">Lidar</td>
     <td class="tg-lboi">Livox Mid70</td>
-    <td class="tg-lboi">/livox/lidar</td>
     <td class="tg-lboi">/livox/lidar</td>
     <td class="tg-lboi"><a href="https://github.com/Livox-SDK/livox_ros_driver/blob/master/livox_ros_driver/msg/CustomMsg.msg" target="_blank" rel="noopener noreferrer">livox_ros_driver/CustomMsg</a></td>
     <td class="tg-9wq8">10</td>
