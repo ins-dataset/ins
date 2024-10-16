@@ -13,18 +13,9 @@ All ground truths ultimately come from the high accuracy survey-grade prior maps
 <table>
   <tr>
     <th><img src="images/ntu_compressed.gif"  title="ntu_priormap" alt="ntu_priormap">  </th>
-    <th><img src="images/kth_compressed.gif"  title="kth_priormap" alt="kth_priormap">  </th>
-    <th><img src="images/tuhh_compressed.gif"  title="tuhh_priormap" alt="tuhh_priormap"> </th>
   </tr>
   <tr>
-    <th> <a href="https://drive.google.com/file/d/17snoVZgPDckqw0TSL_lIZogQZzRUBceC"> Download</a></th>
-    <th> <a href="https://drive.google.com/file/d/1x_yw-FdGDp_9HGJ4_LHCdZ5qBELzY5M_"> Download</a></th>
-    <th> <a href="https://drive.google.com/file/d/1oIeU-tcomjPRbgbssjDAyJuG32XuK-Fu"> Download</a></th>
-  </tr>
-  <tr>
-    <th> <a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ET-ZUnEgpRhKl6d1y4sXQ2sBdfSzK1TxueeJ9Ntqavt2AQ?e=OpUBul"> Annotation</a></th>
-    <th> <a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EZO4KnKrbPZPnqNEj1XiP-8BafXFmEzi50QKFIhrDlPNew?e=lWH6eD"> Annotation</a></th>
-    <th> <a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EQ3RQ3AIQnpDmJqVs-yYG6oBBzs-GdRRc-bDz-f5T4dd3Q?e=Hel4jD"> Annotation</a></th>
+    <th> <a href=""> Download</a></th>
   </tr>
 </table>
 
