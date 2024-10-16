@@ -1,3 +1,7 @@
+---
+sort: 1
+---
+
 <p align="center">
     <img src="images/figure1.png" alt="maps_and_elevation" width="80%"/>
 </p>
