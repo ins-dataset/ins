@@ -2,7 +2,7 @@
     <img src="images/maps.png" alt="maps_and_elevation" width="98%"/>
 </p>
 
-# [MNE-SLAM: Multi-agent Neural SLAM for Mobile Robots](https://ins-dataset.github.io/ins.github.io/)
+# [MNE-SLAM: Multi-agent Neural SLAM for Mobile Robots (Indoor Neural SLAM Dataset)](https://ins-dataset.github.io/ins.github.io/)
 
 The dataset is collected over large-scale campus areas in the Asia and Europe at different seasons, featuring:
 
