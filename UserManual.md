@@ -74,7 +74,7 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
     <td class="tg-lboi">Livox Mid 360</td>
     <td class="tg-lboi">/livox/lidar/imu</td>
     <td class="tg-9wq8">400</td>
-    <td class="tg-lboi">See datasheet</td>
+    <td class="tg-lboi"><a href="https://www.intelrealsense.com/wp-content/uploads/2020/06/Intel-RealSense-D400-Series-Datasheet-June-2020.pdf" target="_blank" rel="noopener noreferrer">See datasheet</a></td>
   </tr>
 
   <tr>
