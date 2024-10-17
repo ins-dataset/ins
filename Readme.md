@@ -11,7 +11,7 @@ sort: 1
 The dataset is collected over large-scale campus areas in the Asia and Europe at different seasons, featuring:
 
 * A comprehensive multi-sensor suite:
-  + Non-repetItive lidar
+  + Non-repetitive lidar
   + RGB Camera
   + Depth Camera
   + High quality IMUs
