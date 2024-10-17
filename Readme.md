@@ -28,7 +28,7 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   </p>
 * Visualization of INS dataset.
 <p align="center">
-    <img src="images/figure2-1.png" alt="maps_and_elevation" width="95%"/>
+    <img src="images/figure2-1.png" alt="maps_and_elevation" width="90%"/>
 </p>
 # Notes:
 
