@@ -3,7 +3,7 @@ sort: 1
 ---
 
 <p align="center">
-    <img src="images/figure1.png" alt="maps_and_elevation" width="80%"/>
+    <img src="images/figure1.png" alt="maps_and_elevation" width="85%"/>
 </p>
 
 # [MNE-SLAM: Multi-agent Neural SLAM for Mobile Robots (Indoor Neural SLAM Dataset)](https://ins-dataset.github.io/ins.github.io/)
@@ -28,7 +28,7 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   </p>
 * Visualization of INS dataset.
 <p align="center">
-    <img src="images/figure2.png" alt="maps_and_elevation" width="80%"/>
+    <img src="images/figure2-1.png" alt="maps_and_elevation" width="95%"/>
 </p>
 # Notes:
 
