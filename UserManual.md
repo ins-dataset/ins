@@ -115,7 +115,7 @@ Please follows the instructions [here](https://github.com/Livox-SDK/livox_ros_dr
 
 
 ### Time stamp
-For MCD, please take note of the following:
+For INS Dataset, please take note of the following:
 
 * For the ouster data, the timestamp in the message header corresponds to the *end* of the 0.1s sweep. Let us denote it as $$t_h$$. Each lidar point has a timestamp (in nanosecond) that is relative to the *start* of the sweep, denoted as $$t_r$$. The absolute time of the point $$t_a$$ is therefore:
 
@@ -131,7 +131,7 @@ $$
 
 ## Coordinate systems
 
-The main coordinate systems in MCD is defined as follows:
+The main coordinate systems in INS Dataset is defined as follows:
   
 <p align="center">
   <img src="images/frames.png" width="30%"/>

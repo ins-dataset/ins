@@ -13,7 +13,7 @@ The calibrated parameters for the sensorsuites are provided in the following yam
 
 [Robot Type 2]() (for **robot Type1* sequences)
 
-## Color and Depth Images
+## Single-Agent Color and Depth Images
 The sequences are captured as rosbags, which are then compressed with bz2 method. User can uncompress the rosbags for less CPU usage at the cost of 3x memory storage. For user convenience, we extracted data from the rosbag, primarily providing color and depth images.
 
 
@@ -48,18 +48,9 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
   </thead>
   <tbody>
     <tr>
-      <th class="tg-mypc"><span style="font-weight:bold">0</span></th>
-      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor01 </a> </td>
-      <td><a href=""> <img src="images/gtpreview/ntu_day_01_gtpreview.png" title="ntu_day_01" alt="ntu_day_01_gt"></a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Imu</a></td>
-    </tr>
-    <tr>
       <th class="tg-mypc"><span style="font-weight:bold">1</span></th>
-      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor02 </a> </td>
-      <td><a href=""> <img src="images/gtpreview/ntu_day_02_gtpreview.png" title="ntu_day_02" alt="ntu_day_02_gt"></a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor01 </a> </td>
+      <td><a href=""> <img src="images/gtpreview/indoor1.png" title="Indoor_Long_Corridor1" alt="Indoor_Long_Corridor1"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
@@ -67,13 +58,30 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">2</span></th>
-      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor03 </a> <br> Duration: 5m25s <br> Size: 20.9 GB</td>
-      <td><a href=""> <img src="images/gtpreview/ntu_day_10_gtpreview.png" title="ntu_day_10" alt="ntu_day_10_gt"></a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor02 </a> </td>
+      <td><a href=""> <img src="images/gtpreview/indoor2.png" title="Indoor_Long_Corridor2" alt="Indoor_Long_Corridor2"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Imu</a></td>
     </tr>
-
+    <tr>
+      <th class="tg-mypc"><span style="font-weight:bold">3</span></th>
+      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor03 </a> </td>
+      <td><a href=""> <img src="images/gtpreview/indoor3.png" title="Indoor_Long_Corridor3" alt="Indoor_Long_Corridor3"></a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Imu</a></td>
+    </tr>
+    <tr>
+      <th class="tg-mypc"><span style="font-weight:bold">4</span></th>
+      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor03 </a> <br> Duration: 5m25s <br> Size: 15.8GB</td>
+      <td><a href=""> <img src="images/gtpreview/indoor4.png" title="Indoor_Long_Corridor4" alt="Indoor_Long_Corridor4"></a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Imu</a></td>
+    </tr>
   </tbody>
 </table>
