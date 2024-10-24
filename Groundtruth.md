@@ -13,22 +13,15 @@ All ground truths ultimately come from the high accuracy survey-grade prior maps
 <table>
   <tr>
     <th><img src="images/ntu_compressed.gif"  title="ntu_priormap" alt="ntu_priormap">  </th>
-  </tr>
-    <tr>
     <th><img src="images/ntu_compressed.gif"  title="ntu_priormap" alt="ntu_priormap">  </th>
-  </tr>
-    <tr>
     <th><img src="images/ntu_compressed.gif"  title="ntu_priormap" alt="ntu_priormap">  </th>
   </tr>
   <tr>
     <th> <a href=""> Download</a></th>
-  </tr>
-  <tr>
+    <th> <a href=""> Download</a></th>
     <th> <a href=""> Download</a></th>
   </tr>
-  <tr>
-    <th> <a href=""> Download</a></th>
-  </tr>
+\
 </table>
 
 
