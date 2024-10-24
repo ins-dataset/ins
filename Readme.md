@@ -22,9 +22,9 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   </p>
 * High resolution large scale survey-grade prior maps
   <p align="center">
-    <img src="images/ntu_compressed.gif" width="32%"/>
-    <img src="images/ntu_compressed.gif" width="32%"/>
-    <img src="images/ntu_compressed.gif" width="32%"/>
+    <img src="images/gtpreview/animation1.mp4" width="32%"/>
+    <img src="images/gtpreview/animation2-1.mp4" width="32%"/>
+    <img src="images/gtpreview/animation3.mp4" width="32%"/>
   </p>
 * Visualization of INS dataset.
 <p align="center">
