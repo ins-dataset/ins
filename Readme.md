@@ -24,7 +24,7 @@ The dataset is collected over large-scale indoor areas, featuring:
   <p align="center">
     <img src="images/gtpreview/indoor.gif" width="32%"/>
     <img src="images/gtpreview/semi-outdoor.gif" width="32%"/>
-    <img src="images/gtpreview/crossbuilding.gif" width="32%"/>
+    <img src="images/gtpreview/cross-building.gif" width="32%"/>
   </p>
 * Visualization of INS dataset.
 <p align="center">
