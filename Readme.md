@@ -8,7 +8,7 @@ sort: 1
 
 # [MNE-SLAM: Multi-agent Neural SLAM for Mobile Robots (Indoor Neural SLAM Dataset)](https://ins-dataset.github.io/ins.github.io/)
 
-The dataset is collected over large-scale campus areas in the Asia and Europe at different seasons, featuring:
+The dataset is collected over large-scale indoor areas, featuring:
 
 * A comprehensive multi-sensor suite:
   + Non-repetitive lidar
@@ -24,7 +24,7 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   <p align="center">
     <img src="images/gtpreview/indoor.gif" width="32%"/>
     <img src="images/gtpreview/semi-outdoor.gif" width="32%"/>
-    <img src="images/gtpreview/cross-building.gif" width="32%"/>
+    <img src="images/gtpreview/crossbuilding.gif" width="32%"/>
   </p>
 * Visualization of INS dataset.
 <p align="center">
