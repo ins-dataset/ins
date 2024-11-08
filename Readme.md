@@ -3,7 +3,7 @@ sort: 1
 ---
 
 <p align="center">
-    <img src="images/figure1.png" alt="maps_and_elevation" width="85%"/>
+    <img src="images/figure1-1.png" alt="maps_and_elevation" width="85%"/>
 </p>
 
 # [MNE-SLAM: Multi-agent Neural SLAM for Mobile Robots (Indoor Neural SLAM Dataset)](https://ins-dataset.github.io/ins.github.io/)
