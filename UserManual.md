@@ -6,7 +6,7 @@ sort: 2
 
 ## Overview
 
-Below are the ROS topics of each sensor modality in MCD. Please click on the link on each message type for their detailed definition. Other details such as resolutions are also provided. The naming convention `**/\<hardware-unit\>/\<modality\>/...**' is applied for all topics in both the ATV and HHS setups. Note that the 't' and 'b' affixes in the names of the realsense D455 modules refer to 'top' and 'bottom' units. They do not mean a hardware variant. 
+Below are the ROS topics of each sensor modality in INS. Please click on the link on each message type for their detailed definition. Other details such as resolutions are also provided. The naming convention `**/\<hardware-unit\>/\<modality\>/...**' is applied for all topics in both the ATV and HHS setups. Note that the 't' and 'b' affixes in the names of the realsense D455 modules refer to 'top' and 'bottom' units. They do not mean a hardware variant. 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -83,7 +83,7 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
     <td class="tg-lboi">/livox/lidar</td>
     <td class="tg-lboi"><a href="https://github.com/Livox-SDK/livox_ros_driver/blob/master/livox_ros_driver/msg/CustomMsg.msg" target="_blank" rel="noopener noreferrer">livox_ros_driver/CustomMsg</a></td>
     <td class="tg-9wq8">10</td>
-    <td class="tg-lboi">1 channel.<br>Points per channel: 9984<br>Point format: see <a href="https://mcdviral.github.io/UserManual.html#point-format" target="_blank" rel="noopener noreferrer">our manual</a></td>
+    <td class="tg-lboi">1 channel.<br>Points per channel: 9984<br>Point format: see <a href="https://ins-dataset.github.io/ins/UserManual.html#point-format" target="_blank" rel="noopener noreferrer">our manual</a></td>
   </tr>
 </tbody>
 </table>
@@ -141,7 +141,7 @@ First, the coordinate system of the [prior maps](Groundtruth#survey-grade-prior-
 Then the *Body* frame $$\mathtt{B}$$ coincides with the VN100 IMU in the NTU sequences, and the VN200 in the KTH and TUHH sequences.
 Each sensor has a *Sensor* frame $${\mathtt{S}}$$ attached to it.
 
-The extrinsics of the sensors in MCD are declared as transformation matrices $${}^{\mathtt{B}}_{\mathtt{S}}\bf{T} = \begin{bmatrix} {}^{\mathtt{B}}_{\mathtt{S}}\mathrm{R} & {}^{\mathtt{B}}_{\mathtt{S}}\mathrm{t} \\ 0 &1\end{bmatrix} $$, where $${}^{\mathtt{B}}_{\mathtt{S}}\mathrm{R}$$ and $${}^{\mathtt{B}}_{\mathtt{S}}\mathrm{t}$$ are respectively the rotational and translational extrinsics.
+The extrinsics of the sensors in INS are declared as transformation matrices $${}^{\mathtt{B}}_{\mathtt{S}}\bf{T} = \begin{bmatrix} {}^{\mathtt{B}}_{\mathtt{S}}\mathrm{R} & {}^{\mathtt{B}}_{\mathtt{S}}\mathrm{t} \\ 0 &1\end{bmatrix} $$, where $${}^{\mathtt{B}}_{\mathtt{S}}\mathrm{R}$$ and $${}^{\mathtt{B}}_{\mathtt{S}}\mathrm{t}$$ are respectively the rotational and translational extrinsics.
 
 Therefore if one observes a landmark $${}^{\mathtt{C}}\mathrm{f}$$ in the camera frame $$\mathtt{C}$$, its coordinate in the body frame $${}^{\mathtt{B}}\mathrm{f}$$ is calculated as:
 
