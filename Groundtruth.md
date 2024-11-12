@@ -12,9 +12,9 @@ All ground truths ultimately come from the high accuracy survey-grade prior maps
 
 <table>
   <tr>
-    <th><img src="images/gtpreview/indoor.gif"  title="indoor_long_corridor" alt="indoor_long_corridor"  width="32%">  </th>
-    <th><img src="images/gtpreview/semi-outdoor.gif"  title="semi_outdoor" alt="semi_outdoor" width="32%">  </th>
-    <th><img src="images/gtpreview/cross-building.gif"  title="cross_building" alt="cross_building"  width="32%" >  </th>
+    <th><img src="images/gtpreview/indoor.gif"  title="indoor_long_corridor" alt="indoor_long_corridor"  width="100%">  </th>
+    <th><img src="images/gtpreview/semi-outdoor.gif"  title="semi_outdoor" alt="semi_outdoor" width="100%">  </th>
+    <th><img src="images/gtpreview/cross-building.gif"  title="cross_building" alt="cross_building"  width="100%" >  </th>
   </tr>
   <tr>
     <th> <a href=""> Download</a></th>

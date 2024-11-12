@@ -79,7 +79,7 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
 
   <tr>
     <td class="tg-uzvj" rowspan="1">Lidar</td>
-    <td class="tg-lboi">Livox Mid70</td>
+    <td class="tg-lboi">Livox Mid360</td>
     <td class="tg-lboi">/livox/lidar</td>
     <td class="tg-lboi"><a href="https://github.com/Livox-SDK/livox_ros_driver/blob/master/livox_ros_driver/msg/CustomMsg.msg" target="_blank" rel="noopener noreferrer">livox_ros_driver/CustomMsg</a></td>
     <td class="tg-9wq8">10</td>
