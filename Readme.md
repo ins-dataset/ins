@@ -27,7 +27,7 @@ The dataset is collected over large-scale indoor areas, featuring:
     <img src="images/figure2.png" alt="maps_and_elevation" width="90%"/>
 </p>
 # Notes:
-Please visit this [website](https://github.com/ins-dataset/ins) for the full dataset!
+Please visit this https://github.com/ins-dataset/ins for the full dataset!
 
 If you have some inquiry, please raise an [issue](https://github.com/ins-dataset/ins/issues) on github.
 
