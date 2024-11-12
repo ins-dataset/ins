@@ -1,12 +1,8 @@
----
-sort: 1
----
-
 <p align="center">
     <img src="images/figure1-1.png" alt="maps_and_elevation" width="85%"/>
 </p>
 
-# [MNE-SLAM: Multi-agent Neural SLAM for Mobile Robots (Indoor Neural SLAM Dataset)](https://ins-dataset.github.io/ins.github.io/)
+# [MNE-SLAM: Multi-agent Neural SLAM for Mobile Robots (Indoor Neural SLAM Dataset)](https://ins-dataset.github.io/ins/)
 
 The dataset is collected over large-scale indoor areas, featuring:
 
@@ -31,8 +27,9 @@ The dataset is collected over large-scale indoor areas, featuring:
     <img src="images/figure2.png" alt="maps_and_elevation" width="90%"/>
 </p>
 # Notes:
+Please visit this [website](https://github.com/ins-dataset/ins) for the full dataset!
 
-If you have some inquiry, please raise an [issue](https://github.com/ins-dataset/ins.github.io/issues) on github.
+If you have some inquiry, please raise an [issue](https://github.com/ins-dataset/ins/issues) on github.
 
 # Licence
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and is intended for non-commercial academic use.
