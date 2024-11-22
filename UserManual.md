@@ -44,14 +44,14 @@ Below are the ROS topics of each sensor modality in INS. Please click on the lin
   <tr>
     <td class="tg-uzvj" rowspan="2">Camera</td>
     <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d435i/" target="_blank" rel="noopener noreferrer">D435i</a></td>
-    <td class="tg-lboi">/d435i/depth/image_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw  /d435i/color/image_raw<br><span style="font-weight:400;font-style:normal"></td>
+    <td class="tg-lboi">/d435i/depth/image_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw </td>
     <td class="tg-lboi" rowspan="2"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Image</a></td>
     <td class="tg-9wq8">30</td>
     <td class="tg-lboi">848 x 480 Greyscale<br><span style="font-weight:400;font-style:normal">1280×720 Greyscale</span><br><span style="font-weight:400;font-style:normal">1280×720 Greyscale</span> <span style="font-weight:400;font-style:normal">1280×720 RGB</span></td>
   </tr>
   <tr>
     <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d455/" target="_blank" rel="noopener noreferrer">D455</a></td>
-    <td class="tg-lboi">/d435i/depth/image_raw<br><span style="font-weight:400;font-style:normal"> /d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455b/color/image_raw</span></td>
+    <td class="tg-lboi">/d435i/depth/image_raw<br><span style="font-weight:400;font-style:normal"> /d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">  /d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal"> </td>
     <td class="tg-9wq8">30</td>
     <td class="tg-lboi">848 x 480 Greyscale<br><span style="font-weight:400;font-style:normal">1280×720 Greyscale</span><br><span style="font-weight:400;font-style:normal">1280×720 Greyscale</span> <span style="font-weight:400;font-style:normal">1280×720 RGB</span></td>
   </tr>
