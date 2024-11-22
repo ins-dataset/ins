@@ -121,7 +121,7 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
 
 ## Overview
 
-Below are the ROS topics of each sensor modality in INS. Please click on the link on each message type for their detailed definition. Other details such as resolutions are also provided. The naming convention `**/\<hardware-unit\>/\<modality\>/...**' is applied for all topics in both the ATV and HHS setups. Note that the 't' and 'b' affixes in the names of the realsense D455 modules refer to 'top' and 'bottom' units. They do not mean a hardware variant. 
+Below are the ROS topics of each sensor modality in INS. Please click on the link on each message type for their detailed definition. Other details such as resolutions are also provided. The naming convention `**/\<hardware-unit\>/\<modality\>/...**' is applied for all topics. 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -159,16 +159,16 @@ Below are the ROS topics of each sensor modality in INS. Please click on the lin
   <tr>
     <td class="tg-uzvj" rowspan="2">Camera</td>
     <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d435i/" target="_blank" rel="noopener noreferrer">D435i</a></td>
-    <td class="tg-lboi">/d435i/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw</td>
-    <td class="tg-lboi" rowspan="2"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Image</a></td>
+    <td class="tg-lboi">/d435i/depth/image_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra1/image_rect_raw</span> <br><span style="font-weight:400;font-style:normal">/d435i/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw <br><span style="font-weight:400;font-style:normal">/d435i/color/image_raw</span> </td>
+    <td class="tg-lboi" rowspan="2"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Image</a> </td>
     <td class="tg-9wq8">30</td>
-    <td class="tg-lboi">640×480 Greyscale<br><span style="font-weight:400;font-style:normal">640×480 Greyscale</span><br><span style="font-weight:400;font-style:normal">640×480 RGB</span></td>
+    <td class="tg-lboi">848 x 480 Greyscale<br><span style="font-weight:400;font-style:normal">1280×720 Greyscale</span><br><span style="font-weight:400;font-style:normal">1280×720 Greyscale</span> <br> <span style="font-weight:400;font-style:normal">1280×720 RGB</span></td>
   </tr>
   <tr>
     <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d455/" target="_blank" rel="noopener noreferrer">D455</a></td>
-    <td class="tg-lboi">/d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455b/color/image_raw</span></td>
+    <td class="tg-lboi">/d455/depth/image_raw<br><span style="font-weight:400;font-style:normal">/d455/infra1/image_rect_raw</span> <br><span style="font-weight:400;font-style:normal">/d455/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw <br><span style="font-weight:400;font-style:normal">/d455/color/image_raw</span> </td>
     <td class="tg-9wq8">30</td>
-    <td class="tg-lboi">640×480 Greyscale<br><span style="font-weight:400;font-style:normal">640×480 Greyscale</span><br><span style="font-weight:400;font-style:normal">640×480 RGB</span></td>
+    <td class="tg-lboi">848 x 480 Greyscale <br><span style="font-weight:400;font-style:normal">1280×720 Greyscale</span> <br> <span style="font-weight:400;font-style:normal">1280×720 Greyscale</span> <br> <span style="font-weight:400;font-style:normal">1280×720 RGB</span> </td>
   </tr>
   <tr>
     <td class="tg-uzvj" rowspan="3">IMU</td>
@@ -202,7 +202,6 @@ Below are the ROS topics of each sensor modality in INS. Please click on the lin
   </tr>
 </tbody>
 </table>
-
 
 ## Lidar data
 
