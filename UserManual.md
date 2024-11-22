@@ -51,7 +51,7 @@ Below are the ROS topics of each sensor modality in INS. Please click on the lin
   </tr>
   <tr>
     <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d455/" target="_blank" rel="noopener noreferrer">D455</a></td>
-    <td class="tg-lboi">/d435i/depth/image_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra1/image_rect_raw</span> <br><span style="font-weight:400;font-style:normal">/d435i/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw <br><span style="font-weight:400;font-style:normal">/d435i/color/image_raw</span> </td>
+    <td class="tg-lboi">/d455/depth/image_raw<br><span style="font-weight:400;font-style:normal">/d455/infra1/image_rect_raw</span> <br><span style="font-weight:400;font-style:normal">/d455/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw <br><span style="font-weight:400;font-style:normal">/d455/color/image_raw</span> </td>
     <td class="tg-9wq8">30</td>
     <td class="tg-lboi">848 x 480 Greyscale <br><span style="font-weight:400;font-style:normal">1280×720 Greyscale</span> <br> <span style="font-weight:400;font-style:normal">1280×720 Greyscale</span> <br> <span style="font-weight:400;font-style:normal">1280×720 RGB</span> </td>
   </tr>
