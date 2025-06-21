@@ -13,7 +13,7 @@ The dataset is collected over large-scale indoor areas, featuring:
   + High quality IMUs
 * Multiple Robot Types
   <p align="center">
-    <img src="images/sensorsuit.png" width="100%"/>
+    <img src="images/sensorsuit.png" width="90%"/>
   </p>
 * High resolution large scale survey-grade prior maps
   <p align="center">
