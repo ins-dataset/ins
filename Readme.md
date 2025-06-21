@@ -42,4 +42,5 @@ We would like to thank our group’s previous work, "Robust Loop Closure by Text
 # Updates
 
 **15/11/2024**: Preliminary release.
+
 **20/6/2025**: Fully release.

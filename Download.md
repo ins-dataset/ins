@@ -76,7 +76,7 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">4</span></th>
-      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor03 </a> <br> Duration: 5m25s <br> Size: 15.8GB</td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor04 </a> </td>
       <td><a href=""> <img src="images/gtpreview/indoor4.png" title="Indoor_Long_Corridor4" alt="Indoor_Long_Corridor4"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
@@ -117,7 +117,7 @@ The multi-agent scenario consists of four trajectories within the long_corridor 
   </thead>
   <tbody>
     <tr>
-      <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor01 </a> </td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Multi-agent_long_corridor </a> </td>
       <td><a href=""> <img src="images/gtpreview/indoor1.png" title="Indoor_Long_Corridor1" alt="Indoor_Long_Corridor1"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
