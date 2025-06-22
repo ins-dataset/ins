@@ -29,7 +29,7 @@ All ground truths ultimately come from the high accuracy survey-grade prior maps
 
 ## Descrete time ground truth
 
-For those who only need a traditional discrete-time ground truth for benchmarking SLAM methods, you can use the *pose_inW.csv* associated with each sequence. This data is sampled from the continuous time ground truth at 0.1s interval. The content looks like the following:
+For those who only need a traditional discrete-time ground truth for benchmarking SLAM methods, you can use the *pose.txt* associated with each sequence. The content looks like the following:
 
 ```
 num	t                 x                 y                 z                 qx                  qy                 qz                  qw
@@ -44,9 +44,24 @@ num	t                 x                 y                 z                 qx  
 Here, num is the index of the lidar pointcloud in the bag file, t is the time stamp, and (x, y, z, qx, qy, qz, qw) is the pose of the *body frame* wrt to the *world frame*.
 
 ## Continous-time ground truth
+We generate the continous-time ground truth trajectories using our previous work, CTE-MLO: A Continuous-time and Efficient Multi-LiDAR Odometry with Localizability-aware Point Cloud Sampling[(T-FR 2025)](https://github.com/shenhm516/CTE-MLO), which leverages high-precision prior maps for accurate trajectories.
+For more advance users that would like to study the motion distortion on lidar, you can use the *spline.csv* file provided in the same folder (if you are not familar with B-spline, we recommend the following [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sommer_Efficient_Derivative_Computation_for_Cumulative_B-Splines_on_Lie_Groups_CVPR_2020_paper.pdf)  for the detail description of B-spline based continuous-time trajectory representation
+). 
 
-For more advance users that would like to study the motion distortion on lidar, you can use the *spline.csv* file provided in the same folder (if you are not familar with B-spline, we recommend the following [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sommer_Efficient_Derivative_Computation_for_Cumulative_B-Splines_on_Lie_Groups_CVPR_2020_paper.pdf) and [our technical note](images/bspline_technical_note.pdf) for the detail description of B-spline based continuous-time trajectory representation
-). The *control points* of the spline are listed in this file. The content resembles the following:
+The CTE-MLO can be easily configured to perform localization on a pre-built map by setting ```use_prebuild_map: True``` in the ```.yaml```.
+Don't forget to specify the path of the pre-built map by setting the ```offline_map_path``` in ```.yaml```.
+The ```init_T``` in the ```.yaml``` file represents the initial pose of the first scan in the pre-build map, which can be obtained either from a ground truth trajectory or through point cloud registration between the first scan and the pre-built map. To facilitate registration, we provide a [point cloud registration GUI](https://github.com/TobyLyu/icp_gui).
+
+
+Testing on MCD Prior Map:
+```
+source ~/ctemlo_ws/devel/setup.bash
+roslaunch cte_mlo mapping_mcd_prior.launch
+rosbag play ntu_day_01/ntu_day_01_mid70.bag
+```
+*Remark:* Please wait until the terminal displays ```The Pre-build Map has been Voxelized``` before playing the rosbag.
+
+The *control points* of the spline are listed in this file. The content resembles the following:
 
 ```
 Dt: 0.025, Order: 6, Knots: 24045, MinTime: 1644823132.49097, MaxTime: 1644823733.59097
