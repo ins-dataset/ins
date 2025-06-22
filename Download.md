@@ -118,8 +118,8 @@ The multi-agent scenario consists of four trajectories within the long_corridor 
   <tbody>
     <tr>
       <td><a href="" rel="noopener noreferrer" target="_blank">Multi-agent_long_corridor </a> </td>
-      <td><a href=""> <img src="images/gtpreview/indoor1.png" title="Indoor_Long_Corridor1" alt="Indoor_Long_Corridor1"></a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
+      <td><a href=""> <img src="images/multi-indoor.png" title="Indoor_Long_Corridor1" alt="Indoor_Long_Corridor1"></a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Color1</a> <a href="" rel="noopener noreferrer" target="_blank">Color2</a> <a href="" rel="noopener noreferrer" target="_blank">Color3</a> <a href="" rel="noopener noreferrer" target="_blank">Color4</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Imu</a></td>
