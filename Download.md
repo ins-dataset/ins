@@ -64,7 +64,8 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
       <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor02 </a> </td>
       <td><a href=""> <img src="images/gtpreview/indoor2.png" title="Indoor_Long_Corridor2" alt="Indoor_Long_Corridor2"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth Sensor</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth Proj</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Imu</a></td>
     </tr>
@@ -73,7 +74,8 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
       <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor03 </a> </td>
       <td><a href=""> <img src="images/gtpreview/indoor3.png" title="Indoor_Long_Corridor3" alt="Indoor_Long_Corridor3"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth Sensor</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth Proj</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Imu</a></td>
     </tr>
@@ -82,7 +84,8 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
       <td><a href="" rel="noopener noreferrer" target="_blank">indoor_long_corridor04 </a> </td>
       <td><a href=""> <img src="images/gtpreview/indoor4.png" title="Indoor_Long_Corridor4" alt="Indoor_Long_Corridor4"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Depth</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth Sensor</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth Proj</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Lidar</a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Imu</a></td>
     </tr>
