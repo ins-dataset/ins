@@ -32,6 +32,7 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
 		<col style="width: 420px">
 		<col style="width: 150px">
 		<col style="width: 150px">
+    <col style="width: 150px">
 		<col style="width: 100px">
 		<col style="width: 100px">
 	</colgroup>
@@ -41,7 +42,8 @@ The sequences are captured as rosbags, which are then compressed with bz2 method
       <th class="tg-mypc"><span style="font-weight:bold">SeqID</span></th>
       <th class="tg-mypc"><span style="font-weight:bold">Ground Truth</span></th>
       <th class="tg-mypc"><span style="font-weight:bold">Color Image</span></th>
-      <th class="tg-mypc"><span style="font-weight:bold">Depth Image</span></th>
+      <th class="tg-mypc"><span style="font-weight:bold">Depth Sensor Image</span></th>
+      <th class="tg-mypc"><span style="font-weight:bold">Depth Project Image</span></th>
       <th class="tg-mypc"><span style="font-weight:bold">Livox</span></th>
       <th class="tg-mypc"><span style="font-weight:bold">Imu</span></th>
     </tr>
@@ -121,9 +123,9 @@ The multi-agent scenario consists of four trajectories within the long_corridor 
       <td><a href="" rel="noopener noreferrer" target="_blank">Multi-agent_long_corridor </a> </td>
       <td><a href=""> <img src="images/multi-indoor.png" title="Indoor_Long_Corridor1" alt="Indoor_Long_Corridor1"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color1</a> <a href="" rel="noopener noreferrer" target="_blank">Color2</a> <a href="" rel="noopener noreferrer" target="_blank">Color3</a> <a href="" rel="noopener noreferrer" target="_blank">Color4</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Depth1</a><a href="" rel="noopener noreferrer" target="_blank">Depth2</a><a href="" rel="noopener noreferrer" target="_blank">Depth3</a><a href="" rel="noopener noreferrer" target="_blank">Depth4</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Lidar1</a><a href="" rel="noopener noreferrer" target="_blank">Lidar2</a><a href="" rel="noopener noreferrer" target="_blank">Lidar3</a> <a href="" rel="noopener noreferrer" target="_blank">Lidar4</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Imu1</a> <a href="" rel="noopener noreferrer" target="_blank">Imu2</a> <a href="" rel="noopener noreferrer" target="_blank">Imu3</a> <a href="" rel="noopener noreferrer" target="_blank">Imu4</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth1</a> <a href="" rel="noopener noreferrer" target="_blank">Depth2</a> <a href="" rel="noopener noreferrer" target="_blank">Depth3</a> <a href="" rel="noopener noreferrer" target="_blank">Depth4</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Lidar1</a> <a href="" rel="noopener noreferrer" target="_blank">Lidar2</a> <a href="" rel="noopener noreferrer" target="_blank">Lidar3</a> <a href="" rel="noopener noreferrer" target="_blank">Lidar4</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Imu1</a> <a href="" rel="noopener noreferrer" target="_blank">Imu2</a> <a href="" rel="noopener noreferrer" target="_blank">Imu3</a> <a href="" rel="noopener noreferrer" target="_blank">Imu4 </a></td>
     </tr>
   </tbody>
 </table>
