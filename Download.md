@@ -104,7 +104,7 @@ The multi-agent scenario consists of four trajectories within the long_corridor 
 		<col style="width: 150px">
 		<col style="width: 150px">
 		<col style="width: 150px">
-		<col style="width: 150px">
+		<col style="width: 120px">
 	</colgroup>
 	<thead>
     <tr style="text-align: right;">
@@ -121,9 +121,9 @@ The multi-agent scenario consists of four trajectories within the long_corridor 
       <td><a href="" rel="noopener noreferrer" target="_blank">Multi-agent_long_corridor </a> </td>
       <td><a href=""> <img src="images/multi-indoor.png" title="Indoor_Long_Corridor1" alt="Indoor_Long_Corridor1"></a></td>
       <td><a href="" rel="noopener noreferrer" target="_blank">Color1</a> <a href="" rel="noopener noreferrer" target="_blank">Color2</a> <a href="" rel="noopener noreferrer" target="_blank">Color3</a> <a href="" rel="noopener noreferrer" target="_blank">Color4</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Depth 1</a><a href="" rel="noopener noreferrer" target="_blank">Depth 2</a><a href="" rel="noopener noreferrer" target="_blank">Depth 3</a><a href="" rel="noopener noreferrer" target="_blank">Depth 4</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Lidar 1</a><a href="" rel="noopener noreferrer" target="_blank">Lidar 2</a><a href="" rel="noopener noreferrer" target="_blank">Lidar 3</a> <a href="" rel="noopener noreferrer" target="_blank">Lidar 4</a></td>
-      <td><a href="" rel="noopener noreferrer" target="_blank">Imu 1</a> <a href="" rel="noopener noreferrer" target="_blank">Imu 2</a> <a href="" rel="noopener noreferrer" target="_blank">Imu 3</a> <a href="" rel="noopener noreferrer" target="_blank">Imu 4</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Depth1</a><a href="" rel="noopener noreferrer" target="_blank">Depth2</a><a href="" rel="noopener noreferrer" target="_blank">Depth3</a><a href="" rel="noopener noreferrer" target="_blank">Depth4</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Lidar1</a><a href="" rel="noopener noreferrer" target="_blank">Lidar2</a><a href="" rel="noopener noreferrer" target="_blank">Lidar3</a> <a href="" rel="noopener noreferrer" target="_blank">Lidar4</a></td>
+      <td><a href="" rel="noopener noreferrer" target="_blank">Imu1</a> <a href="" rel="noopener noreferrer" target="_blank">Imu2</a> <a href="" rel="noopener noreferrer" target="_blank">Imu3</a> <a href="" rel="noopener noreferrer" target="_blank">Imu4</a></td>
     </tr>
   </tbody>
 </table>
