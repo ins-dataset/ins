@@ -17,9 +17,9 @@ All ground truths ultimately come from the high accuracy survey-grade prior maps
     <th><img src="images/gtpreview/cross-building.gif"  title="cross_building" alt="cross_building"  width="100%" >  </th>
   </tr>
   <tr>
-    <th> <a href=""> Download</a></th>
-    <th> <a href=""> Download</a></th>
-    <th> <a href=""> Download</a></th>
+    <th> <a href="https://sjtueducn-my.sharepoint.com/:u:/g/personal/dengtianchen_sjtu_edu_cn/EbW_dVsrUZxNnVACgOGi0DgBNbsXSYW2ELVFW7y1wRrJQA?e=7oPaPq"> Pointcloud Download</a> <a href="https://sjtueducn-my.sharepoint.com/:u:/g/personal/dengtianchen_sjtu_edu_cn/Efw964UlRIBNvLxWU4vql5EB4ZEKcJNovTsKd4rKe-8cxQ?e=nmeumc"> Mesh Download</a> </th>
+    <th> <a href=""> Pointcloud Download</a> <a href=""> Mesh Download</a> </th>
+    <th> <a href=""> Pointcloud Download</a> <a href=""> Mesh Download</a> </th>
   </tr>
 </table>
 
