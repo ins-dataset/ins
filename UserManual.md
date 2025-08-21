@@ -88,7 +88,8 @@ Below are the ROS topics of each sensor modality in INS. Please click on the lin
 </tbody>
 </table>
 
-
+## Depth data
+We provide two types of depth data. One is directly observed by the  RealSense sensor, which has very low quality. The other is a dense, high-precision depth obtained by projecting the ground truth point cloud and completing the depth, which requires the ground truth pose and can only be generated after the LiDAR is activated. As a result, the first 8 frames of the depth projection data are missing. Users can either use the raw depth data or the data after the 8th frame.
 ## Lidar data
 
 ### Resolution and rate
